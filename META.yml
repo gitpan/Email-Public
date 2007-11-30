@@ -1,0 +1,13 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         Email-Public
+version:      0.01
+version_from: lib/Email/Public.pm
+installdirs:  site
+requires:
+    Test::More:                    0
+    Test::Pod:                     1.14
+    Test::Pod::Coverage:           1.04
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.17
