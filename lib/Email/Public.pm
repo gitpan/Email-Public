@@ -9,13 +9,13 @@ Email::Public - Quickly find if an email address is from a public email provider
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
 use vars qw/$VERSION %PUBLIC_DOMAINS/ ;
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 =head1 SYNOPSIS
 
@@ -65,7 +65,7 @@ sub BEGIN{
 # Please keep the list alpha sorted
 #
     map { $PUBLIC_DOMAINS{$_} = 1 } qw/
-6sens.com
+163.com
 absamail.co.za
 adelphia.net
 aim.com
@@ -74,10 +74,12 @@ aliceadsl.fr
 alice.it
 aol.com
 aol.fr
+aon.at
 arcor.de
 att.net
 bellsouth.net
 bigfoot.com
+bigfoot.de
 bigpond.com
 bigpond.com.au
 bigpond.net.au
@@ -109,21 +111,26 @@ excite.com
 fastwebnet.it
 fnac.net
 free.fr
+freeserve.co.uk
 freesurf.fr
 fsmail.net
 gadz.org
 gmail.com
+gmx.at
 gmx.de
+gmx.li
 gmx.net
 go2.pl
 googlemail.com
 highveldmail.co.za
 hispavista.com
 hispeed.ch
+hotbox.com
 hotmail.com
 hotmail.co.uk
 hotmail.fr
 hotmail.it
+hotmail.co.li
 ibest.com.br
 ifrance.com
 ig.com.br
@@ -134,7 +141,6 @@ inicia.es
 interia.pl
 iol.pt
 itelefonica.com.br
-jobtrans.info
 juno.com
 katamail.com
 laposte.fr
@@ -142,10 +148,13 @@ laposte.net
 latinmail.com
 libero.it
 libertysurf.fr
+live.com
+live.nl
 lycos.com
 lycos.co.uk
 lycos.es
 mageos.com
+mail.ru
 mailmate.co.za
 menara.ma
 mixmail.com
@@ -172,6 +181,7 @@ onet.eu
 online.fr
 ono.com
 op.pl
+operamail.com
 optusnet.com.au
 orange.fr
 oreka.com
@@ -191,12 +201,16 @@ sapo.pt
 sbcglobal.net
 seznam.cz
 sify.com
+sina.com.cn
 skynet.be
+sohu.com
+sohu.net
 swing.be
 sympatico.ca
 tele2.ch
 tele2.fr
 telefonica.net
+telenet.be
 telepolis.com
 telkomsa.net
 terra.com
@@ -207,12 +221,14 @@ tiscali.co.uk
 tiscali.fr
 tiscali.it
 tlen.pl
-tuks.co.za
-ukzn.ac.za
+uol.com.ar
 uol.com.br
-uwc.ac.za
+uol.com.co
+uol.com.mx
+uol.com.ve
 verizon.net
 virgilio.it
+virgin.net
 vodamail.co.za
 voila.fr
 vp.pl
@@ -224,6 +240,7 @@ webmail.co.za
 worldonline.fr
 wp.pl
 ya.com
+yahoo.ar
 yahoo.ca
 yahoo.co.in
 yahoo.com
@@ -231,17 +248,29 @@ yahoo.com.ar
 yahoo.com.au
 yahoo.com.br
 yahoo.com.cn
+yahoo.com.hk
+yahoo.com.is
 yahoo.com.mx
 yahoo.com.ph
+yahoo.com.ru
 yahoo.com.sg
 yahoo.co.nz
 yahoo.co.uk
+yahoo.co.jp
+yahoo.co.kr
+yahoo.co.nz
+yahoo.co.uk
 yahoo.de
+yahoo.dk
 yahoo.es
 yahoo.fr
 yahoo.gr
 yahoo.ie
 yahoo.it
+yahoo.jp
+yahoo.nl
+yahoo.no
+yahoo.se
 yahoomail.com
 zipmail.com.br
 zwallet.com

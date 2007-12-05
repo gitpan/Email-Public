@@ -1,5 +1,22 @@
 Revision history for Email-Public
 
+0.02    2007-12-05
+        fixed bugs
+        31225	live.com missing
+        31221	add live.com	
+        31176	remove 6sens.com		
+        31175	jobtrans.info is not a public provider
+        
+        added telenet.be
+        live.nl
+
+        removed *.ac.za
+        removed tuks.co.za
+        added royalmail.com
+              virgin.net
+              mail.ru
+              aon.at
+
 0.01    2007-11-30
         First version basic list.
 
