@@ -9,13 +9,13 @@ Email::Public - Quickly find if an email address is from a public email provider
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
 use vars qw/$VERSION %PUBLIC_DOMAINS/ ;
 
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 =head1 SYNOPSIS
 
@@ -74,6 +74,7 @@ aliceadsl.fr
 alice.it
 aol.com
 aol.fr
+aol.in
 aon.at
 arcor.de
 att.net
@@ -115,6 +116,7 @@ freeserve.co.uk
 freesurf.fr
 fsmail.net
 gadz.org
+gawab.com
 gmail.com
 gmx.at
 gmx.de
@@ -135,6 +137,7 @@ ibest.com.br
 ifrance.com
 ig.com.br
 imode.fr
+inbox.ru
 indiatimes.com
 infonie.fr
 inicia.es
@@ -197,6 +200,7 @@ portugalmail.pt
 prodigy.net.mx
 rediffmail.com
 romandie.com
+safe-mail.net
 sapo.pt
 sbcglobal.net
 seznam.cz

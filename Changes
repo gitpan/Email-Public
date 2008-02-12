@@ -1,5 +1,12 @@
 Revision history for Email-Public
 
+0.03    2008-02-12
+        fixed bugs
+        32918	gawab.com is a public email
+        32772	inbox.ru is a public provider
+        32290	safe-mail.net
+        32128	aol.in	resolved
+
 0.02    2007-12-05
         fixed bugs
         31225	live.com missing
