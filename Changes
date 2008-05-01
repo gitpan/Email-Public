@@ -1,5 +1,8 @@
 Revision history for Email-Public
 
+0.04    2008-05-01
+        added hotmail.com.br, hotmail.es, live.ie, xtra.co.nz
+
 0.03    2008-02-12
         fixed bugs
         32918	gawab.com is a public email

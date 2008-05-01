@@ -9,13 +9,13 @@ Email::Public - Quickly find if an email address is from a public email provider
 
 =head1 VERSION
 
-Version 0.03
+Version 0.04
 
 =cut
 
 use vars qw/$VERSION %PUBLIC_DOMAINS/ ;
 
-$VERSION = '0.03';
+$VERSION = '0.04';
 
 =head1 SYNOPSIS
 
@@ -129,7 +129,9 @@ hispavista.com
 hispeed.ch
 hotbox.com
 hotmail.com
+hotmail.com.br
 hotmail.co.uk
+hotmail.es
 hotmail.fr
 hotmail.it
 hotmail.co.li
@@ -152,6 +154,7 @@ latinmail.com
 libero.it
 libertysurf.fr
 live.com
+live.ie
 live.nl
 lycos.com
 lycos.co.uk
@@ -243,6 +246,7 @@ web.de
 webmail.co.za
 worldonline.fr
 wp.pl
+xtra.co.nz
 ya.com
 yahoo.ar
 yahoo.ca
