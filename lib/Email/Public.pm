@@ -9,13 +9,13 @@ Email::Public - Quickly find if an email address is from a public email provider
 
 =head1 VERSION
 
-Version 0.04
+Version 0.05
 
 =cut
 
 use vars qw/$VERSION %PUBLIC_DOMAINS/ ;
 
-$VERSION = '0.04';
+$VERSION = '0.05';
 
 =head1 SYNOPSIS
 
@@ -73,8 +73,16 @@ airtel.net
 aliceadsl.fr
 alice.it
 aol.com
+aol.com.au
+aol.com.mx
+aol.co.uk
+aol.de
+aol.es
 aol.fr
 aol.in
+aol.it
+aol.nl
+aol.se
 aon.at
 arcor.de
 att.net
@@ -87,6 +95,7 @@ bigpond.net.au
 bluewin.ch
 blueyonder.co.uk
 bol.com.br
+bt.com
 btinternet.com
 btopenworld.com
 cantv.net
@@ -118,6 +127,7 @@ fsmail.net
 gadz.org
 gawab.com
 gmail.com
+gmail.com.ar
 gmx.at
 gmx.de
 gmx.li
@@ -128,6 +138,7 @@ highveldmail.co.za
 hispavista.com
 hispeed.ch
 hotbox.com
+hotmail.be
 hotmail.com
 hotmail.com.br
 hotmail.co.uk
@@ -153,6 +164,7 @@ laposte.net
 latinmail.com
 libero.it
 libertysurf.fr
+live.be
 live.com
 live.ie
 live.nl
@@ -190,6 +202,7 @@ op.pl
 operamail.com
 optusnet.com.au
 orange.fr
+orangemail.es
 oreka.com
 ozu.es
 pandora.be
@@ -262,6 +275,7 @@ yahoo.com.mx
 yahoo.com.ph
 yahoo.com.ru
 yahoo.com.sg
+yahoo.co.jp
 yahoo.co.nz
 yahoo.co.uk
 yahoo.co.jp
@@ -280,6 +294,7 @@ yahoo.nl
 yahoo.no
 yahoo.se
 yahoomail.com
+yopmail.com
 zipmail.com.br
 zwallet.com
     /
