@@ -9,13 +9,13 @@ Email::Public - Quickly find if an email address is from a public email provider
 
 =head1 VERSION
 
-Version 0.05
+Version 0.06
 
 =cut
 
 use vars qw/$VERSION %PUBLIC_DOMAINS/ ;
 
-$VERSION = '0.05';
+$VERSION = '0.06';
 
 =head1 SYNOPSIS
 
@@ -102,6 +102,7 @@ cantv.net
 caramail.com
 cegetel.net
 cellc.co.za
+centrum.cz
 charter.net
 click21.com.br
 clix.pt
@@ -121,11 +122,13 @@ excite.com
 fastwebnet.it
 fnac.net
 free.fr
+freemail.hu
 freeserve.co.uk
 freesurf.fr
 fsmail.net
 gadz.org
 gawab.com
+gamail.com
 gmail.com
 gmail.com.ar
 gmx.at
@@ -142,10 +145,12 @@ hotmail.be
 hotmail.com
 hotmail.com.br
 hotmail.co.uk
+hotmail.de
 hotmail.es
 hotmail.fr
 hotmail.it
 hotmail.co.li
+iafrica.com
 ibest.com.br
 ifrance.com
 ig.com.br
@@ -159,6 +164,7 @@ iol.pt
 itelefonica.com.br
 juno.com
 katamail.com
+kittymail.com
 laposte.fr
 laposte.net
 latinmail.com
@@ -166,6 +172,8 @@ libero.it
 libertysurf.fr
 live.be
 live.com
+live.com.pt
+live.co.za
 live.ie
 live.nl
 lycos.com
@@ -175,6 +183,7 @@ mageos.com
 mail.ru
 mailmate.co.za
 menara.ma
+messagerie.net
 mixmail.com
 msn.com
 msn.fr
@@ -241,6 +250,8 @@ tiscali.co.uk
 tiscali.fr
 tiscali.it
 tlen.pl
+tvcablenet.de
+t-online.hu
 uol.com.ar
 uol.com.br
 uol.com.co
@@ -275,6 +286,7 @@ yahoo.com.mx
 yahoo.com.ph
 yahoo.com.ru
 yahoo.com.sg
+yahoo.com.ve
 yahoo.co.jp
 yahoo.co.nz
 yahoo.co.uk
