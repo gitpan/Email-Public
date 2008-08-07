@@ -9,13 +9,13 @@ Email::Public - Quickly find if an email address is from a public email provider
 
 =head1 VERSION
 
-Version 0.06
+Version 0.07
 
 =cut
 
 use vars qw/$VERSION %PUBLIC_DOMAINS/ ;
 
-$VERSION = '0.06';
+$VERSION = '0.07';
 
 =head1 SYNOPSIS
 
@@ -115,10 +115,12 @@ earthlink.net
 eircom.net
 e-mailanywhere.com
 email.com
+email.cz
 eresmas.com
 euskalnet.net
 evc.net
 excite.com
+fastmail.fm
 fastwebnet.it
 fnac.net
 free.fr
@@ -144,6 +146,7 @@ hotbox.com
 hotmail.be
 hotmail.com
 hotmail.com.br
+hotmail.com.mx
 hotmail.co.uk
 hotmail.de
 hotmail.es
@@ -210,6 +213,7 @@ ono.com
 op.pl
 operamail.com
 optusnet.com.au
+orange.es
 orange.fr
 orangemail.es
 oreka.com
@@ -294,6 +298,7 @@ yahoo.co.jp
 yahoo.co.kr
 yahoo.co.nz
 yahoo.co.uk
+yahoo.co.za
 yahoo.de
 yahoo.dk
 yahoo.es
