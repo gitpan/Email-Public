@@ -9,13 +9,13 @@ Email::Public - Quickly find if an email address is from a public email provider
 
 =head1 VERSION
 
-Version 0.07
+Version 0.08
 
 =cut
 
 use vars qw/$VERSION %PUBLIC_DOMAINS/ ;
 
-$VERSION = '0.07';
+$VERSION = '0.08';
 
 =head1 SYNOPSIS
 
@@ -109,6 +109,7 @@ clix.pt
 club-internet.fr
 clubinternet.fr
 comcast.net
+copper.net
 cox.net
 dbmail.com
 earthlink.net
@@ -131,6 +132,7 @@ fsmail.net
 gadz.org
 gawab.com
 gamail.com
+gmail.co.in
 gmail.com
 gmail.com.ar
 gmx.at
@@ -175,6 +177,7 @@ libero.it
 libertysurf.fr
 live.be
 live.com
+live.com.mx
 live.com.pt
 live.co.za
 live.ie
