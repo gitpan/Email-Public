@@ -9,13 +9,13 @@ Email::Public - Quickly find if an email address is from a public email provider
 
 =head1 VERSION
 
-Version 0.08
+Version 0.09
 
 =cut
 
 use vars qw/$VERSION %PUBLIC_DOMAINS/ ;
 
-$VERSION = '0.08';
+$VERSION = '0.09';
 
 =head1 SYNOPSIS
 
@@ -86,7 +86,9 @@ aol.se
 aon.at
 arcor.de
 att.net
+belgacom.net
 bellsouth.net
+bestmail.us
 bigfoot.com
 bigfoot.de
 bigpond.com
@@ -122,6 +124,7 @@ euskalnet.net
 evc.net
 excite.com
 fastmail.fm
+fastmail.us
 fastwebnet.it
 fnac.net
 free.fr
@@ -179,6 +182,7 @@ live.be
 live.com
 live.com.mx
 live.com.pt
+live.co.uk
 live.co.za
 live.ie
 live.nl
@@ -186,6 +190,7 @@ lycos.com
 lycos.co.uk
 lycos.es
 mageos.com
+mail.com
 mail.ru
 mailmate.co.za
 menara.ma
@@ -194,6 +199,7 @@ mixmail.com
 msn.com
 msn.fr
 mweb.co.za
+mynet.com
 myway.com
 navegalia.com
 netcourrier.com
@@ -235,12 +241,14 @@ romandie.com
 safe-mail.net
 sapo.pt
 sbcglobal.net
+scarlet.be
 seznam.cz
 sify.com
 sina.com.cn
 skynet.be
 sohu.com
 sohu.net
+superonline.com
 swing.be
 sympatico.ca
 tele2.ch
@@ -257,7 +265,9 @@ tiscali.co.uk
 tiscali.fr
 tiscali.it
 tlen.pl
+ttmail.com
 tvcablenet.de
+t-online.de
 t-online.hu
 uol.com.ar
 uol.com.br
