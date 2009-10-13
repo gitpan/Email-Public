@@ -9,13 +9,13 @@ Email::Public - Quickly find if an email address is from a public email provider
 
 =head1 VERSION
 
-Version 0.10
+Version 0.11
 
 =cut
 
 use vars qw/$VERSION %PUBLIC_DOMAINS/ ;
 
-$VERSION = '0.10';
+$VERSION = '0.11';
 
 =head1 SYNOPSIS
 
@@ -192,6 +192,7 @@ lycos.es
 mageos.com
 mail.com
 mail.ru
+mail2world.com
 mailmate.co.za
 menara.ma
 messagerie.net
@@ -243,11 +244,13 @@ sapo.pt
 sbcglobal.net
 scarlet.be
 seznam.cz
+sfr.fr
 sify.com
 sina.com.cn
 skynet.be
 sohu.com
 sohu.net
+surfsimple.net
 superonline.com
 swing.be
 sympatico.ca
