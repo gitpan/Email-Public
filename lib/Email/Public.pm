@@ -15,7 +15,7 @@ Version 0.11
 
 use vars qw/$VERSION %PUBLIC_DOMAINS/ ;
 
-$VERSION = '0.11';
+$VERSION = '0.12';
 
 =head1 SYNOPSIS
 
@@ -102,6 +102,7 @@ btinternet.com
 btopenworld.com
 cantv.net
 caramail.com
+cbn.net.id
 cegetel.net
 cellc.co.za
 centrum.cz
@@ -328,6 +329,7 @@ yahoo.no
 yahoo.se
 yahoomail.com
 yopmail.com
+ymail.com
 zipmail.com.br
 zwallet.com
 
