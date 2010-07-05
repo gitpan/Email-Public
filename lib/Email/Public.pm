@@ -15,7 +15,7 @@ Version 0.11
 
 use vars qw/$VERSION %PUBLIC_DOMAINS/ ;
 
-$VERSION = '0.12';
+$VERSION = '0.13';
 
 =head1 SYNOPSIS
 
@@ -582,6 +582,7 @@ reborn.com
 reincarnate.com
 religious.com
 revenue.com
+rocketmail.com
 rocketship.com
 royal.net
 saintly.com

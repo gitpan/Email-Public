@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Email-Public
-version:             0.12
+version:             0.13
 abstract:            Quickly find if an email address is from a public email provider
 license:             ~
 author:              
